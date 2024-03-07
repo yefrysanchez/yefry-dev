@@ -1,12 +1,13 @@
+import Home from "./pages/Home";
 import "./App.css";
 
 function App() {
   // https://www.artjomzakoyan.com/
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="bg-black min-h-screen">
+      <Home />
+    </div>
   );
 }
 
